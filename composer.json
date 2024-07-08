@@ -15,19 +15,25 @@
       "email": "support@unetway.com"
     }
   ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/zhd4n/robokassa"
+    }
+  ],
   "require": {
-    "php": ">=7.4",
+    "php": ">=7.3",
     "guzzlehttp/guzzle": ">=6.3",
     "ext-json": "*",
     "ext-simplexml": "*",
-    "unetway/robokassa": "*"
+    "unetway/robokassa": "dev-master"
   },
   "autoload": {
     "psr-4": {
       "Unetway\\LaravelRobokassa\\": "src/"
     }
+  },
+  "require-dev": {
+    "rector/rector": "^1.2"
   }
 }
-
-
-
