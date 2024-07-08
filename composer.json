@@ -26,7 +26,7 @@
     "guzzlehttp/guzzle": ">=6.3",
     "ext-json": "*",
     "ext-simplexml": "*",
-    "unetway/robokassa": "dev-master"
+    "unetway/robokassa": "dev-master as 1.0.0"
   },
   "autoload": {
     "psr-4": {
